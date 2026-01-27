@@ -14,7 +14,8 @@ const App = () => {
     level: "Senior level",
     salary: "$120/hr",
     location: "San Francisco, CA",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://www.amazon.jobs"
   },
   {
     id: 2,
@@ -26,7 +27,8 @@ const App = () => {
     level: "Mid level",
     salary: "$140/hr",
     location: "Mountain View, CA",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://careers.google.com"
   },
   {
     id: 3,
@@ -38,7 +40,8 @@ const App = () => {
     level: "Senior level",
     salary: "$130/hr",
     location: "Redmond, WA",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://careers.microsoft.com"
   },
   {
     id: 4,
@@ -50,7 +53,8 @@ const App = () => {
     level: "Senior level",
     salary: "$110/hr",
     location: "Menlo Park, CA",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://www.metacareers.com"
   },
   {
     id: 5,
@@ -62,7 +66,8 @@ const App = () => {
     level: "Mid level",
     salary: "$150/hr",
     location: "Cupertino, CA",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://jobs.apple.com"
   },
   {
     id: 6,
@@ -74,7 +79,8 @@ const App = () => {
     level: "Mid level",
     salary: "$125/hr",
     location: "Los Gatos, CA",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://jobs.netflix.com"
   },
   {
     id: 7,
@@ -86,7 +92,8 @@ const App = () => {
     level: "Senior level",
     salary: "$135/hr",
     location: "Austin, TX",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://www.tesla.com/careers"
   },
   {
     id: 8,
@@ -98,7 +105,8 @@ const App = () => {
     level: "Mid level",
     salary: "$115/hr",
     location: "San Jose, CA",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://careers.adobe.com"
   },
   {
     id: 9,
@@ -110,7 +118,8 @@ const App = () => {
     level: "Senior level",
     salary: "$100/hr",
     location: "Remote",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://www.lifeatspotify.com/jobs"
   },
   {
     id: 10,
@@ -122,9 +131,11 @@ const App = () => {
     level: "Mid level",
     salary: "$118/hr",
     location: "San Francisco, CA",
-    isSaved: false
+    isSaved: false,
+    applyUrl: "https://careers.airbnb.com"
   }
 ];
+
 
   return (
       <div className='parent'>
@@ -132,7 +143,7 @@ const App = () => {
           return (
             <div key={idx+1}>
               
-              <Card company={job.company} logo={job.logo} posted={job.postedAgo} title={job.title} jobType={job.jobType} level={job.jobType} salary={job.salary} location={job.location} />
+              <Card company={job.company} logo={job.logo} posted={job.postedAgo} title={job.title} jobType={job.jobType} level={job.jobType} salary={job.salary} location={job.location} apply={job.applyUrl}/>
             </div>
           )
         })} 

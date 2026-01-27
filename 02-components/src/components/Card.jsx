@@ -28,7 +28,8 @@ const Card = (props) => {
         <h3>
           {props.salary} <br /> <span>{props.location}</span>
         </h3>
-        <button>Apply now</button>
+        <a href={props.apply} target="_blank" rel="noreferrer">
+        <button>Apply now</button></a>
       </div>
     </div>
   );
