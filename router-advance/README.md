@@ -1,7 +1,9 @@
-preview 
+
+
 ## 🎥 Preview
 
-[▶ Watch Demo Video](./preview.mp4)
+[![Demo Preview](preview.png)](./preview.mp4)
+
 
 
 # React + Vite
