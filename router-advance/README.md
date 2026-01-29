@@ -1,5 +1,8 @@
 preview 
-<video controls src="router-advance - Google Chrome 2026-01-29 22-26-21.mp4" title="Title"></video>
+## 🎥 Preview
+
+[▶ Watch Demo Video](./preview.mp4)
+
 
 # React + Vite
 
