@@ -1,8 +1,9 @@
+## 🎥 Demo
 
+![Preview](demo.gif)
 
-## 🎥 Preview
+👉 [Watch Full Video](./preview.mp4)
 
-[![Demo Preview](preview.png)](./preview.mp4)
 
 
 
